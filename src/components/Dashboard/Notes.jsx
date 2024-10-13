@@ -33,14 +33,7 @@ const Notes = ({ data }) => {
       const response = await axios.post(
         // "https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data/add-note",
         "http://localhost:5001/api/dashboard-data/add-note",
-        noteToSend,
-        {
-          headers: {
-            Authorization: `Bearer YOUR_API_KEY_OR_TOKEN`, // Optional if required
-            "Content-Type": "application/json",
-          },
-          withCredentials: true, // If the server uses cookies or sessions
-        }
+        noteToSend
       );
 
       if (response.data) {
@@ -59,10 +52,7 @@ const Notes = ({ data }) => {
     try {
       await axios.delete(
         // `https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data?noteId=${id}`,
-        `http://localhost:5001/api/dashboard-data?noteId=${id}`,
-        {
-          withCredentials: true, // If cookies are involved
-        }
+        `http://localhost:5001/api/dashboard-data?noteId=${id}`
       );
       setNotes((prevNotes) => prevNotes.filter((note) => note._id !== id));
     } catch (error) {
