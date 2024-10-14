@@ -33,10 +33,9 @@ const ManagementReports = ({ data }) => {
                       secondaryAction={
                         <a
                           // href={`https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/download/${
-                          href={`http://localhost:5001/api/download/${
+                          href={`https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/download/${
                             report?.pdf?.split("src/assets/")[1]
                           }`}
-                          target="_blank" // Opens in a new tab to avoid CORS issues
                           rel="noopener noreferrer"
                         >
                           <ArrowDownToLine />

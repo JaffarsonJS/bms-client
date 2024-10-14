@@ -37,7 +37,7 @@ const Dashboard = () => {
         // `http://localhost:5001/api/dashboard-data?date=2023-09-20T18:00:00.000Z`
         // `http://localhost:5001/api/dashboard-data?date=${formattedDate}`
         // `https://bms-server-l9z344lsr-jaffarsonjs-projects.vercel.app/api/dashboard-data?date=${formattedDate}`
-        `http://localhost:5001/api/dashboard-data?date=${formattedDate}`
+        `https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data?date=${formattedDate}`
       );
       const data = await response.json();
       // console.log('data',data);

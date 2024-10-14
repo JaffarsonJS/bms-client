@@ -32,7 +32,7 @@ const Notes = ({ data }) => {
 
       const response = await axios.post(
         // "https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data/add-note",
-        "http://localhost:5001/api/dashboard-data/add-note",
+        "https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data/add-note",
         noteToSend
       );
 
@@ -52,7 +52,7 @@ const Notes = ({ data }) => {
     try {
       await axios.delete(
         // `https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data?noteId=${id}`,
-        `http://localhost:5001/api/dashboard-data?noteId=${id}`
+        `https://bms-server-git-main-jaffarsonjs-projects.vercel.app/api/dashboard-data?noteId=${id}`
       );
       setNotes((prevNotes) => prevNotes.filter((note) => note._id !== id));
     } catch (error) {
