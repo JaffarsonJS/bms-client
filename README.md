@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Building Management System (BMS) Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the **frontend code** for the **Building Management System (BMS) Dashboard**. Built with **React**, **Tailwind CSS**, and **Material UI (MUI)**, this client provides a real-time view of building operations, helping property managers streamline day-to-day activities.
 
-## Available Scripts
+## Features
+- **Calendar Integration**: Select a date (e.g., **September 20, 2023**) to load relevant data dynamically.
+- **Interactive Components**: View and manage residents, contractors, cases, and work orders.
+- **Notes Section**: Add, search, and delete notes with ease.
+- **Management Reports & Work Orders**: Download PDFs and track submitted files.
+- **Activity Feed**: Monitor the latest actions for better accountability.
+- **Weather Updates**: Stay informed with live weather status on the dashboard.
+- **Responsive Design**: Optimized UI with **MUI** and **Tailwind CSS**.
 
-In the project directory, you can run:
+## Tech Stack
+- **React**: Component-based library for building the UI.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Material UI (MUI)**: Provides additional UI components.
+- **Day.js**: Lightweight library for date formatting.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation & Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Clone the Repository
 
-### `npm test`
+git clone https://github.com/JaffarsonJS/bms-client.git
+cd bms-client
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Install Dependencies
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Start the Development Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Access the App
 
-### `npm run eject`
+Open your browser and navigate to http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Usage Example
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Viewing Dashboard Data for Sep-20-2023
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Calendar Integration**: Select a date (e.g., **September 20, 2023**) to load relevant data dynamically.
+- **Interactive Components**: View and manage residents, contractors, cases, and work orders.
+- **Notes Section**: Add, search, and delete notes with ease.
+- **Management Reports & Work Orders**: Download PDFs and track submitted files.
+- **Activity Feed**: Monitor the latest actions for better accountability.
+- **Weather Updates**: Stay informed with live weather status on the dashboard.
+- **Responsive Design**: Optimized UI with **MUI** and **Tailwind CSS**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2. Adding a Note
+In the Notes section.
+Enter a title and description, and click Plus Icon and Enter details and click Add Note to save it.
 
-## Learn More
+### 3. Searching and Deleting Notes
+Use the search bar in the Notes section to filter notes by title or content.
+To delete a note, click the delete icon next to the entry.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Downloading Reports
+In the Management Reports section.
+Use the download link to retrieve uploaded PDFs 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)# bms-client
+For any questions or feedback
+### Email: jaffarsonjs@gmail.com
